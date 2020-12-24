@@ -1,3 +1,7 @@
+/*
+Crea un Programa que imprima Hola mundo
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
