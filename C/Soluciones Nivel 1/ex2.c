@@ -1,4 +1,6 @@
 /*
+Crea un programa que imprima si un numero es par o impar
+
 Explicacion
 El operador de módulo (%) calcula el resto después de dividir el primer por el segundo. 
 Los números que tienen Zero de residuo o restante son números pares
@@ -9,16 +11,10 @@ Example 1:
 = 2 x 5 = 10
 = 10 - 10 = 0
 
-Example 2:
-10 % 3
-= 3 x 3 = 9
-= 10 - 9 = 1
-------------------
-10 % 2 == 0
-10 % 5 == 0
-10 % 7 == 3
-10 % 3 == 1
--------------------
+Example 2:      |10 % 2 == 0
+10 % 3          |10 % 3 == 1  
+= 3 x 3 = 9     |10 % 5 == 0  
+= 10 - 9 = 1    |10 % 7 == 3                
 */
 
 #include <stdio.h>
