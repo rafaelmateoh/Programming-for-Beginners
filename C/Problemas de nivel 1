@@ -23,18 +23,21 @@ del ano 1 Primavera, 2 Verano, 			|
 Revisa los archivos Ex4 y Ex4.1			|
 --------------------------------------------------------------------------------------------------
 Ex5:						|Ex15:
+Crea un programa que imprima las letras		|
+del alfabeto desde la A hasta la Z (A-Z)	|
+--------------------------------------------------------------------------------------------------
+Ex6:						|Ex16:
+Calcula el factorial de 2 numeros con una	|	 
+funcion.					|	
+   						|
+						|
+--------------------------------------------------------------------------------------------------
+Ex7:						|Ex17:
 Crea un reloj que te permita configurar la hora,|
 Minutos, y segundo 				|
 						|
 Que te permita visualizar la horas		|
-y que el programa cierre al escribir exit	|
---------------------------------------------------------------------------------------------------
-Ex6:						|Ex16:
- 						|
-						|
---------------------------------------------------------------------------------------------------
-Ex7:						|Ex17:
- 						|
+y que el programa cierre al escribir exit 	|
 						|
 --------------------------------------------------------------------------------------------------
 Ex8:						|Ex18:
