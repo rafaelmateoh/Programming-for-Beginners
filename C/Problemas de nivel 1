@@ -27,20 +27,20 @@ Crea un programa que imprima las letras		|
 del alfabeto desde la A hasta la Z (A-Z)	|
 --------------------------------------------------------------------------------------------------
 Ex6:						|Ex16:
-Calcula el factorial de 2 numeros con una	|	 
-funcion.					|	
+Calcula el factorial de 2 números con una	|	 
+función.					|	
    						|
 						|
 --------------------------------------------------------------------------------------------------
 Ex7:						|Ex17:
-Crea un reloj que te permita configurar la hora,|
-Minutos, y segundo 				|
-						|
-Que te permita visualizar la horas		|
-y que el programa cierre al escribir exit 	|
+Crea un programa que pueda Imprime la tabla 	|
+de multiplica del 1 al 12			|
+					 	|
 						|
 --------------------------------------------------------------------------------------------------
 Ex8:						|Ex18:
+Crea un programa que te permita practica	|
+la tabla de multiplicacion			|		
  						|
 						|
 --------------------------------------------------------------------------------------------------

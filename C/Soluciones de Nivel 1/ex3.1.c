@@ -1,5 +1,4 @@
 /*
-Crea un programa que lea 3 números y imprima el mayor y el menor de los 3
  COMIENZO
       Paso 1 → Crea tres variables de tipo enteros, digamos A, B y C
       Paso 2 → Asignar valores a las variables

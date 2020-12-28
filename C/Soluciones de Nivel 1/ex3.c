@@ -1,4 +1,3 @@
-//Crea un programa que lea 3 números y imprima el mayor y el menor de los 3
 
 #include <stdlib.h>
 #include <stdio.h>
