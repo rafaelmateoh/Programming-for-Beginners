@@ -43,10 +43,32 @@ basic multiplication problems.			|
 						|
 --------------------------------------------------------------------------------------------------
 Ex9:						|Ex19:
+Write a program that reads two whole numbers	|
+and displays the set of whole numbers 		|
+between the two numbers.			|
+ 						|
+Example:					|
+ 1 and 6					|
+The set of whole numbers between 1 and 6 	|
+inclusive is (2,3,4,5)				|
+						|
+						|
  						|
 						|
 --------------------------------------------------------------------------------------------------
 Ex10:						|Ex20:
+Looping problems				|
+Write a program in C that is able		|
+to display the first 10 natural numbers		|
+to find the sum of first 10 natural numbers.	|
+to display n terms of number and their sum.	|
+to read 10 numbers from keyboard and find their |
+sum and average					|
+to display the cube of the number upto 		|
+given an integer.				|
+						|
+						|
+						|
  						|
 						|
 --------------------------------------------------------------------------------------------------

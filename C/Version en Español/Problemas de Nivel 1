@@ -40,15 +40,45 @@ de multiplica del 1 al 12			|
 --------------------------------------------------------------------------------------------------
 Ex8:						|Ex18:
 Crea un programa que te permita practica	|
-la tabla de multiplicacion			|		
+la tabla de multiplicación			|		
  						|
 						|
 --------------------------------------------------------------------------------------------------
-Ex9:						|Ex19:
+Ex9:						|Ex19
  						|
+Escribe un programa que lea dos números y 	|
+muestre en pantalla la lista de números en 	|
+el medio o en otras palabras 			|
+los números comprendidos.			|
+ 						|
+Ejem :						|
+ 1 y 6						|
+(2,3,4,5) Es la lista de 			|
+números comprendidos, entre 1 y 6		|				|
 						|
 --------------------------------------------------------------------------------------------------
 Ex10:						|Ex20:
- 						|
+Problemas de bucle				|
 						|
+Escriba un programa en C que pueda 		|
+tener la capacidad ......			|
+						|
+De mostrar los primeros 10 números naturales	|
+(1 - 10)					|
+						|
+Para encontrar la suma de los primeros 10 	|
+números naturales. 				|
+(1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10)	|
+						|
+De leer un numero ingresado por el usuario 	|
+y mostrar la lista de números anteriores 	|
+y imprint la suma de esa lista de números.	|
+ejem: 3 = (3 + 2 + 1) = 6			|
+						|
+leer 10 números del teclado y encontrar su 	|
+suma y promedio (Average)			|
+						|
+Para recibir 3 números y 			|
+imprimir elevar esos números 			|
+a la tercera potencia				|
 --------------------------------------------------------------------------------------------------
