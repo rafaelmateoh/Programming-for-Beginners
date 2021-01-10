@@ -1,4 +1,4 @@
-/*Calcula el factorial de 2 numeros con una funcion
+/*Calcula el factorial de un numero
     factorial de 1 = 1 * 1
                  2 = 1 * 2 * 2
                  3 = 1 * 2 * 3
@@ -10,29 +10,16 @@
 int factorial();
 
 int main() {
-    int a,b;
+    int a,i;
+    int factorial = 1;
+    
     printf("Enter a number: ");
     scanf("%i",&a);
-    printf("Enter a number: ");
-    scanf("%i",&b);
     
-    factorial(a,b);
-    
-    return 0;
-}
-
-int factorial(int a, int b){
-    int x,result1 = 0,result2 = 0;
-    
-    for(x = 0; x <= a; x++){
-        result1 = x * a;
+    for(i = 1; i <= a; i++){
+        factorial *= i;
     }
-    printf("The result is %d \n",result1);
-    
-    for(x = 0; x <= b; x++){
-        result2 = x * b;
-    }
-    printf("The result is %d \n",result2);
+    printf("%d \n",factorial);
     
     return 0;
 }
