@@ -1,84 +1,104 @@
---------------------------------------------------------------------------------------------------
-Ex1:						|Ex11:
-Crea un Programa que imprima 			|
-Hola mundo!!					|
---------------------------------------------------------------------------------------------------
-Ex2:						|Ex12:
-Crea un programa que imprima si un numero 	|
-es par o impar					|
---------------------------------------------------------------------------------------------------
-Ex3:						|Ex13:
-Crea un programa que lea 3 números y 		|
-imprima el mayor y el menor de los 3		|
-						|
-Revisa los archivos Ex3 y Ex3.1 para ver	|
-diferente manera de como resolverlo		|
---------------------------------------------------------------------------------------------------
-Ex4:						|Ex14:
-//Crea un programa que lea un numero del 	|
-1 al 5 y que devuelva las estaciones 		|
-del ano 1 Primavera, 2 Verano, 			|
-3 Otono, y 4 invierno				|
-						|
-Revisa los archivos Ex4 y Ex4.1			|
---------------------------------------------------------------------------------------------------
-Ex5:						|Ex15:
-Crea un programa que imprima las letras		|
-del alfabeto desde la A hasta la Z (A-Z)	|
---------------------------------------------------------------------------------------------------
-Ex6:						|Ex16:
-Calcula el factorial de 2 números con una	|	 
-función.					|	
-   						|
-						|
---------------------------------------------------------------------------------------------------
-Ex7:						|Ex17:
-Crea un programa que pueda Imprime la tabla 	|
-de multiplica del 1 al 12			|
-					 	|
-						|
---------------------------------------------------------------------------------------------------
-Ex8:						|Ex18:
-Crea un programa que te permita practica	|
-la tabla de multiplicación			|		
- 						|
-						|
---------------------------------------------------------------------------------------------------
-Ex9:						|Ex19
- 						|
-Escribe un programa que lea dos números y 	|
-muestre en pantalla la lista de números en 	|
-el medio o en otras palabras 			|
-los números comprendidos.			|
- 						|
-Ejem :						|
- 1 y 6						|
-(2,3,4,5) Es la lista de 			|
-números comprendidos, entre 1 y 6		|				|
-						|
---------------------------------------------------------------------------------------------------
-Ex10:						|Ex20:
-Problemas de bucle				|
-						|
-Escriba un programa en C que pueda 		|
-tener la capacidad ......			|
-						|
-De mostrar los primeros 10 números naturales	|
-(1 - 10)					|
-						|
-Para encontrar la suma de los primeros 10 	|
-números naturales. 				|
-(1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10)	|
-						|
-De leer un numero ingresado por el usuario 	|
-y mostrar la lista de números anteriores 	|
-y imprint la suma de esa lista de números.	|
-ejem: 3 = (3 + 2 + 1) = 6			|
-						|
-leer 10 números del teclado y encontrar su 	|
-suma y promedio (Average)			|
-						|
-Para recibir 3 números y 			|
-imprimir elevar esos números 			|
-a la tercera potencia				|
---------------------------------------------------------------------------------------------------
+
+
+#!/bin/bash
+
+#Copyright (c) Rafael Mateo
+#Math Practice Game
+###################################################################
+#Functions for the program
+###################################################################
+
+# 1) Calculator
+function calc() {
+  echo -e "\nYou've selected Calculator "
+  read -p "Please enter a number: " n1
+  read -p "Please enter a number: " n2
+  add=$(( n1 + n2 ))
+  sub=$(( n1 - n2 ))
+  mult=$(( n1 * n2 ))
+  div=$(( n1 / n2 ))
+  echo "$n1 + $n2 = $add"
+  echo "$n1 - $n2 = $sub"
+  echo "$n1 * $n2 = $mult"
+  echo "$n1 / $n2 = $div"
+ cls
+}
+
+# 2) Multiplication chart
+function mult_table() {
+  for i in {2..12}
+  do
+    echo -e "\n" # This is just for space
+    for x in {2..12}
+      do
+      result=$(( i * x ))
+      echo -e "$i X $x = $result"
+      done
+  done
+cls
+}
+
+# 3) Quiz
+# shuf Write a random permutation of the input lines to standard output.
+function quiz() {
+for (( x = 1; x <= 5; x++ ))
+do
+  q1=$(shuf -i 2-12 -n 1) # shut --help
+  q2=$(shuf -i 2-12 -n 1)
+  answer=$(( $q1 * $q2 ))
+  read -p "$q1 X $q2 = " answ
+
+if [ "$answer" == "$answ" ]
+  then
+  echo "Correct"
+else
+  echo "Incorrect"
+fi
+done
+echo "Always remember, practice makes perfect"
+cls
+}
+
+
+function main_menu() {
+echo -e "\nWhat would you like to do? "
+echo -e "(1) Calculator \n(2) Multiplication Chart \n(3) Quiz \n(4) Exit"
+read -p "Please select a number: " option
+
+
+if [ "$option" == 1 ] # This is the calculator
+  then
+    calc
+    main_menu
+elif [ "$option" == 2 ] # This is the Multiplication Table
+  then
+    mult_table
+    main_menu
+elif [ "$option" == 3 ]
+  then
+    echo "You've selected Quiz" # This is the Quiz section
+    quiz
+    main_menu
+elif [ "$option" == 4 ]
+  then
+    echo "Good Bye!!"
+  exit
+fi
+
+}
+
+function cls() {
+read -p "Press enter to continue: " clear_screem
+clear && echo -e "\n\n\n"
+}
+
+
+#####################################################################
+# Our program starts here
+#####################################################################
+clear
+echo && echo && echo
+echo "Welcome to Math Hope "
+main_menu
+
+
