@@ -1,6 +1,31 @@
-# Programming-for-Beginners
+# Python for Cybersecurity (In Progress)
 
-Are you learning coding? Well, this is a list of some assignments and mini-programs that you can use if you are learning basic programming. Try to complete each task without looking at the solution. Have fun!!
+This repository contains my journey of learning programming with a focus on cybersecurity.
 
+## Objectives
 
-¿Estás aprendiendo a programar? Bueno, esta es una lista de algunas asignaciones y miniprogramas que puede usar si está aprendiendo programación básica. Intente primero de completar cada tarea sin buscar la solución. ¡¡Espero que te diviertas!!
+* Build automation tools using Python
+* Analyze logs and detect suspicious activity
+* Develop scripts for real-world security tasks
+* Strengthen problem-solving and coding skills
+
+## Current Content
+
+* Basic programming exercises (C, JavaScript)
+* Foundational logic and problem-solving
+
+## Upcoming Projects
+
+* Log parser (detect failed login attempts)
+* IP reputation checker (API-based)
+* Port scanner (basic network tool)
+* File integrity checker
+* Threat intelligence automation scripts
+
+## Goal
+
+Transform programming knowledge into practical cybersecurity skills that can be applied in real-world environments.
+
+---
+
+🚀 This repository will evolve as I build more advanced security tools.
