@@ -14,9 +14,15 @@ This repository contains my journey of learning programming with a focus on cybe
 * Basic programming exercises (C, JavaScript)
 * Foundational logic and problem-solving
 
-## Upcoming Projects
 
-* Log parser (detect failed login attempts)
+## Projects
+
+### Log Analyzer
+- Detects failed login attempts from log files
+- Extracts and counts suspicious IP addresses
+- Simulates real-world SOC analyst investigation workflow
+
+## Upcoming Projects
 * IP reputation checker (API-based)
 * Port scanner (basic network tool)
 * File integrity checker
