@@ -19,10 +19,13 @@ This repository contains my journey of learning programming with a focus on cybe
 
 ### Log Analyzer
 - Detects failed login attempts from log files
+- Tracks successful login activity by IP address
 - Extracts and counts suspicious IP addresses
 - Flags potential brute-force activity using thresholds
+- Detects possible brute-force success patterns
 - Simulates real-world SOC detection logic
 
+  
 ## Upcoming Projects
 * IP reputation checker (API-based)
 * Port scanner (basic network tool)
